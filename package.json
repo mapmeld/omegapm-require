@@ -1,6 +1,27 @@
 {
   "name": "omegapm-require",
-  "version": "0.0.1",
+  "version": "0.0.5",
+  "description": "require a specific hash of a node package",
+  "keywords": ["omegapm"],
+  "author": "mapmeld",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mapmeld/omegapm-require.git"
+  },
   "dependencies": {
-  }
+    "hash-files": "1.0.0"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "omegapm-hash": "omegapm-hash.js"
+  },
+  "main": "index.js",
+  "license": "GPL-3.0+",
+  "engines": {
+    "node": ">= 0.8.x"
+  },
+  "files": [
+    "index.js",
+    "omegapm-hash.js"
+  ]
 }
