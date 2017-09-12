@@ -1,5 +1,7 @@
 # omegapm-require
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mapmeld/omegapm-require.svg)](https://greenkeeper.io/)
+
 Ωpm (omega package manager) replacement for node.js require
 
 ## Concept
